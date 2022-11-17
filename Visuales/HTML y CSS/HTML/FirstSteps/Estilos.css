@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*color hex flatuicolors*/
+h1{ 
+    font-size: 30px;         /* Tamaño */
+    font-family: sans-serif; /* Fuente */
+    font-weight: lighter;    /* Peso   */
+}
+
+h2{
+    font: bold 20px sans-serif; /* Todo en uno */
+}
+
+header,section,footer,aside,nav,article,hgroup{
+    display: block; /* Divido las etiquetas en bloques SIEMPRE estan
+    uno bajo el otro*/
+    /*border: 1px solid black;  (CONTENIDOS EN BLOQUE)*/
+    /*Border sirve para poder delimitar espacios de cada 
+    componenete*/
+}
+
+body{
+    text-align: center; /*ALINEACIÓN DE LOS TEXTOS*/
+    background: gray; /*Color*/
+}
+
+.agrupar{
+    width: 960px; /*Delimito el espacio concreto del contenido*/
+    /*background: rgb(132, 189, 193);*/
+    border: 1px solid black;
+    /*El margen automatico de izq/der y arriba/abajo*/
+    margin:  20px auto; /* --> eje de las y - eje de las x margen externo*/
+    /* padding: 50px; /*Margen interno/ */
+    background: white;
+}
+
+.header{
+    background: #fffbcc; /*Paleta de colores con numero hexadecimal*/
+    padding: 20px;
+}
+
+.header h1{ /* Dentro de (Para clases o para elementos)*/
+    text-align: left; /*Acomodo a un lado u otro todos mis h1*/
+}
+
+.header h2{
+    text-align: left; /*Acomodo a un lado u otro todos mis h2*/
+}
+
+.menu{ /* Configuraciones de mi clase menu*/
+    background: #2d3436;
+    padding: 15px 25px;
+    text-align: left; /*Muevo todo el contenedor*/
+    color: white;
+}
+
+.menu li{ /*Todas las listas que estan dentro de la clase menu*/
+    list-style: none;
+    padding: 10px;
+    font: bold 14px verdana;
+    /*display: block los trata como bloque, para colocarlos
+    pegados uno al otro se colocan display: inline-block;*/
+    display: inline-block;
+}
+
+.seccion{
+    /* width: 650px; con pixeles*/
+    width: 60%; /*Con porcentages de la sección*/
+    float: left; /* Flotaras te sales del contenedor y te sobre pones*/
+    /* border: 1px solid black; */
+    margin: 20px; /* Margen del elemento o en este caso la clase*/
+    /* padding: 35px; */
+    /* background: yellow; */
+    padding: 0px 10;
+}
+
+section p{
+    text-align: left;
+    padding: 10px;
+}
+
+article{
+    background: #fffbcc;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px; /*Varia el margen del lado x o y*/
+}
+
+article footer{
+    text-align: right;
+    margin-top: 10px;
+}
+
+article h1{
+    text-align: left;
+}
+
+article h2{
+    padding: 10px;
+}
+
+time{
+    color: #999;
+}
+
+.columna{
+    /* width: 650px; con pixeles*/
+    width: 30%; /*Con porcentages de la sección*/
+    float: left; /* Flotaras*/
+    /* border: 1px solid black; */
+    margin: 20px 0;
+    text-align: center;
+}
+
+.columna blockquote{
+    border: 1px solid black;
+    padding: 20px 5px;
+    background: #fffbcc;
+    margin-bottom: 20px;
+}
+
+#autor1{
+    margin-top: 40px;
+    color: #999;
+}
+
+#autor2{
+    margin-top: 40px;
+    color: #999;
+}
+
+.pie{
+    /*float:orientación en las X´s -> antonimo: clear:both*/
+    clear: both; /* Todo lo anterior a este elemento o clase debe regresar a 
+    la normalidad respetanto las acciones del float*/
+}   
+
+img{
+    display: block;
+    width: 500px;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+.pie{
+    padding: 20px;
+    background: #2d3436;
+    color: white;
+}
+
+

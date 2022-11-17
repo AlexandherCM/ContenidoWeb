@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Autor" content="Alexandher Cordoba Molina">
+    <title>Formulario |ACM|</title>
+     <!--FONT OSWALT CDN-->
+    <link href="https: //fonts.googleapis.com/css2? family= Oswald:wght@200;300;400 & display=swap" rel="stylesheet">
+
+    <!--Vinculos-->
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="back.js"></script>
+    
+</head>
+<body>
+    <div>
+        <header id="cabeza">
+            <a href="http://uptecamac.edomex.gob.mx/ingenieria_en_software"><img src="imagenes/Logo-ing-Soft.png" alt="Logo Ingeniería en Software" id="logo"></a> 
+            <h1>FORMULARIO</h1>
+        </header>
+        <hr>
+    </div>
+
+    <div id="cont-int">
+
+        <form class="formulario1">
+            <!-------------------------------- CAMPOS 1 -------------------------------->
+            <ul>
+                <li>
+                    Nombre: <input type="text" autofocus placeholder="Ingresa el nombre" id="btn-nombre">
+                </li>
+                <li>
+                    Apellido paterno: <input type="text" placeholder="Ingresa el apellido" id="btn-Ap1">
+                </li>
+                <li>
+                    Apellido materno: <input type="text" placeholder="Ingresa el apellido" id="btn-Ap2">
+                </li>
+            </ul>
+        </form>
+
+        <form class="formulario2">
+            <!-------------------------------- CAMPOS 2 -------------------------------->
+            <ul>
+                <li>
+                    Matrícula: <input type="number" placeholder="No. de control" id="btn-mat">
+                </li>
+                <li>
+                    Edad: <input type="number" placeholder="Ingresa tu edad" id="btn-edad">
+                </li>
+            </ul>
+        </form>
+
+        <aside id="Radio">
+            <!-------------------------------- CAMPOS 3 -------------------------------->
+            <ul>
+                <li><label for="">Género: </label></li>
+                <li>
+                    <input type="radio" name="botones1" value="Hombre" id="btn-M"> Masculino
+                </li>
+                <li>
+                    <input type="radio" name="botones1" value="Mujer" id="btn-F"> Femenino
+                </li>
+            </ul>
+            <ul>
+                <li><label for="">Estado civil: </label></li>
+                <li>
+                    <input type="radio" name="botones2" value="Casado" id="Casado"> Casado
+                </li>
+                <li>
+                    <input type="radio" name="botones2" value="Soltero" id="Soltero"> Soltero
+                </li>
+                <li>
+                    <input type="radio" name="botones2" value="Relación libre" id="Relación-libre"> Relación libre
+                </li>
+                <li>
+                    <input type="radio" name="botones2" value="Viudo" id="Viudo"> Viudo
+                </li>
+                <li>
+                    <input type="radio" name="botones2" value="Otro..." id="Otro..."> Otro...
+                </li>
+            </ul>
+        </aside>
+
+        <form class="formulario2">
+            <!-------------------------------- CAMPOS 4 -------------------------------->
+            <ul>
+                <li>
+                    Teléfono: <input type="number" placeholder="Ingresa un numero" id="cel">
+                </li>
+                <li>
+                    Correo eléctronico: <input type="text" placeholder="Ingresa un e-mail" id="e-mail">
+                </li>
+            </ul>
+        </form>
+        
+        <form class="formulario2">
+            <!-------------------------------- CAMPOS 5 -------------------------------->
+            <ul>
+                <li>
+                    <label for="Carrera: ">Carrera: </label>
+                    <select name="Ing-Lic" id="selecciones">
+                        <option value="Carrera: Ingeniería en Software"> Ingeniería en Software</option>
+                        <option value="Carrera: Ingeniería en Finanzas"> Ingeniería en Finanzas</option>
+                        <option value="Carrera: Ingeniería en Tecnologías de Manufactura"> Ingeniería en Tecnologías de Manufactura</option>
+                        <option value="Carrera: Ingeniería Mecánica Automotriz"> Ingeniería Mecánica Automotriz</option>
+                        <option value="Carrera: Licenciatura en Negocios Internacionales"> Licenciatura en Negocios Internacionales</option>
+                    </select>
+                </li>
+                <li>
+                    Grupo: <input type="text" autofocus placeholder="Ingresa el grupo" id="grupo">
+                </li>
+            </ul>
+        </form>
+
+        <aside id="opc">
+            <!-------------------------------- CAMPOS 6 -------------------------------->
+            <ul>
+                <li>
+                    Soy estudiante <input type="checkbox" value="Es un estudiante" id="recuadro">
+                </li>
+                <li>
+                    <abbr title="¿Seguro que quieres vaciar los campos? :o"><button id="limpio">LIMPIAR</button></abbr>
+                </li>
+                <li>
+                    <abbr title="¿Seguro que quieres enviar tus respuestas? ;3"><button id="envio">ENVIAR</button></abbr>
+                </li>
+            </ul>
+        </aside>
+
+        <footer class="pie"> 
+            <cite>
+                <p>Por: Alexandher Cordoba Molina ;3</p>
+                <P>Derechos reservados por mi 7u7</P>
+            </cite>
+        </footer>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="borde"></div>
+
+
+    <div class="contenedor">
+        
+        <form id="form" action="">
+
+            <div class="titulo">
+                <label for=""><h2 class="reservacion">FONDA Super xD</h2><a href=""><img class="logo" src="img/24b736f9b3abe61fa9684004eb7d2721-logotipo-de-hamburguesa-de-comida-rapida.png" alt=""></a></label>
+            </div>
+
+            <label class="campos" for="">
+                <ul>
+                    <li>
+                        <H2 class="campo-datos reservacion">¡Realiza tu reservaciòn aqui!</H2>
+                    </li>
+                    <li id="datos-1">
+                        <input type="text"   id="nombre"     name="nombre"     class="campo-datos" placeholder="Nombre"             required>
+                        <input type="text"   id="A-paterno"  name="A-paterno"  class="campo-datos" placeholder="Apellido paterno"   required>
+                        <input type="text"   id="A-materno"  name="A-materno"  class="campo-datos" placeholder="Apellido materno"   required>
+                        <input type="number" id="num-person" name="num-person" class="campo-datos" placeholder="Numero de personas" required>
+                        <input type="email"  id="correo"     name="correo"     class="campo-datos" placeholder="Correo personal"    required>
+                    </li>
+                    <li>
+                        <p class="campo-datos reservacion">Registra tu orden previa</p>
+                        <select name="" class="select" id="comida" required>
+                            <option selected disabled value=""> Selecciona un platillo</option>
+                            <option value="60">Hamburguesa     </option>
+                            <option value="35">Hot Dogs        </option>
+                            <option value="30">Molletes        </option>
+                            <option value="28">Pico de gallo   </option>
+                            <option value="55">Torta michoacana</option>
+                        </select>
+                        <select name="" class="select" id="bebida" required>
+                            <option selected disabled value=""> Selecciona tu bebida </option>
+                            <option value="15">Refresco de cola                      </option>
+                            <option value="20">Limonada                              </option>
+                            <option value="25">Piña colada                           </option>
+                            <option value="35">Sangria preparada                     </option>
+                            <option value="20">Malteada de naranja                   </option>
+                        </select>
+                    </li>
+                    <li id="seccion-btn">
+                        <button class="campo-datos btn" type="button" id="btn-1">Realizar registro</button>
+                        <button class="campo-datos btn" type="button" id="btn-2">Consultar cuenta final</button>
+                        <button class="campo-datos btn" type="button" id="btn-3">Generar codigo de reserva</button>
+                    </li>
+                </ul>
+            </label>
+
+        </form>
+    </div>
+
+    <div class="borde"></div>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+<!--3 botones , 2select 5 inputs acciones-->
+</html>

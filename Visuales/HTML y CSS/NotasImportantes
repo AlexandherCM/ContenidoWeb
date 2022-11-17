@@ -1,0 +1,13 @@
+Lenguaje de Marcado de Hipertexto (HyperText Markup Language)
+
+# Los elementos vacíos son las etiquetas sin etiqueta de cierre
+
+# <html> CONOCIDO COMO EL ELEMENTO RAÍZ </html>
+
+# <head> CONTENIDO PRELIMINAR </head>
+
+# <a href="" title="" target="Nueva pestaña"></a> 
+target: El atributo target le dice a la página que habra el vinculo en otra pestaña
+
+# <input type="text" placeholder="Escribe" disabled> 
+Bloquea input (Entrada)

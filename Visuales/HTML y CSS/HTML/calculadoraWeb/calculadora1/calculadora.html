@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Autor" content="Alexandher Cordoba"/>
+        <title>Mi super Calcu 7u7</title>
+        <!--Vinuculo de archivos-->
+        <script type="text/javascript" src="js/funciones.js"></script>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <div id="agrupamiento">
+            <header>
+                <h1>Calculadora web</h1>
+            </header>
+            
+            <form id="miformulario" name="Llenado">
+    
+                <h3>
+                    <label>
+                        <strong>Numero 1: </strong>
+                    </label> 
+                    <input type="number" name="n1" id="valor1" autofocus placeholder="Escribe un número">
+                </h3>
+
+                <h3>
+                    <label>
+                        <strong>Numero 2: </strong>
+                    </label> 
+                    <input type="number" name="n2" id="valor2" placeholder="Escribe otro número">
+                </h3>
+
+                <button onclick="limpiar()">Limpiar campo</button>
+
+                <br><br>
+    
+                <button type="button" onclick="Sumar()"       >Sumar números</button>
+                <button type="button" onclick="Restar()"      >Restar números</button>
+                <button type="button" onclick="Multiplicar()" >Multiplicar números</button>
+                <button type="button" onclick="Dividir()"     >Dividir números</button>
+
+                <br><br>
+
+                <p>
+                    <h2>
+                        <strong>El resultado es: <span id="el_resultado"></span></strong>
+                    </h2>
+                </p>
+            </form> 
+        </div>
+    </body>
+</html>
